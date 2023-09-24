@@ -30,7 +30,7 @@ public class LDAPConnect {
         
         if(isSecure)
         {
-        env.put("java.naming.ldap.factory.socket", "de.cosmino.ldapconnectivitytester.MySSLSocketFactory");
+        env.put("java.naming.ldap.factory.socket", "com.kmetininan.ldapconnectivitytester.MySSLSocketFactory");
         }
         
         DirContext dirContext = null;
