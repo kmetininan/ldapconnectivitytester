@@ -29,7 +29,7 @@ import javax.net.ssl.X509TrustManager;
 public abstract class MySSLSocketFactory extends SSLSocketFactory {
 
     private SSLSocketFactory socketFactory;
-    Preferences prefs = Preferences.userRoot().node("de.cosmino.ldaptester.ui.CAGLDAPTester");
+    Preferences prefs = Preferences.userRoot().node("com.kmetininan.ldaptester.ui.LDAPTester");
     public MySSLSocketFactory()  {
         try {
             TrustManagerFactory tmf = TrustManagerFactory
