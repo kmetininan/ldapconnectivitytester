@@ -56,6 +56,6 @@ public class Utils {
     
     public static String getPrincipalName(String userName)
     {
-        return "cn="+userName+",ou=accounts,o=zf";
+        return "cn="+userName+",ou=accounts,o=<org>";
     }
 }
